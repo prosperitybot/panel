@@ -63,6 +63,7 @@ module.exports = withBundleAnalyzer({
 			'cdn.discordapp.com',
 			'ui-avatars.com'
 		],
+		loader: 'akamai'
 	},
 	publicRuntimeConfig: {
 		// Will be available on both server and client
